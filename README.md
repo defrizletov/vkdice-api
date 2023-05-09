@@ -30,4 +30,4 @@ vkDiceCallback.start(3000, 'localhost').then(console.log('VKDice Callback has be
 
 ## ⚙ Разработчик
 
-[AdepT-Hub](https://adept-hub.ru)
+<div align="center">[AdepT-Hub](https://adept-hub.ru)</div>
