@@ -21,7 +21,7 @@ const { VKDice, VKDiceCallback } = require('vkdice-api');
 
 const vkDice = new VKDice({ key: 'ТОКЕН', merchant: /* МЕРЧАНТ */ }), vkDiceCallback = new VKDiceCallback(vkDice);
 
-vkDice.api.coins.balance({ user: 388527561 }).then(console.log).catch(console.error);
+vkDice.api.coins.balance({ user: 1 }).then(console.log).catch(console.error);
 
 vkDiceCallback.on(event => console.log(event));
 
