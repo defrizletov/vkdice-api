@@ -19,12 +19,22 @@ npm i vkdice-api
 ```js
 const { VKDice, VKDiceCallback } = require('vkdice-api');
 
-const vkDice = new VKDice({ key: 'ТОКЕН', merchant: /* МЕРЧАНТ */ }), vkDiceCallback = new VKDiceCallback(vkDice);
+// key - ваш ключ авторизации, полученный в приложении.
+// merchant - ID создателя ключа авторизации.
+const vkDice = new VKDice({ key: '', merchant: 0 });
 
+// Запрос для примера, получение баланса пользователя с ID 1. Потом вывод ответа или ошибки в консоль.
 vkDice.api.coins.balance({ user: 1 }).then(console.log).catch(console.error);
 
+// Callback
+
+// Создаем сервер с помощью переменной vkDice.
+const vkDiceCallback = new VKDiceCallback(vkDice);
+
+// Устанавливаем обработчик на событие пополнения. В этом случае просто вывод события в консоль.
 vkDiceCallback.on(event => console.log(event));
 
+// Запуск сервера на порт 3000 и хост localhost (эти аргументы стоят по умолчанию). Потом, если все успешно, пишем в консоль, что сервер запустился, в противном случае выводим ошибку в консоль.
 vkDiceCallback.start(3000, 'localhost').then(console.log('VKDice Callback has been started.')).catch(console.error);
 ```
 
