@@ -2,7 +2,7 @@
 
 <div align="center">
 
-Модуль для удобного использования VKDice API.
+Модуль для удобного использования [https://vk.com/@vkdice-api-v2](VKDice API).
 
 </div>
 
