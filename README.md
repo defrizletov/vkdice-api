@@ -28,6 +28,6 @@ vkDiceCallback.on(event => console.log(event));
 vkDiceCallback.start(3000, 'localhost').then(console.log('VKDice Callback has been started.')).catch(console.error);
 ```
 
-## ⚙ Разработчик
+## ⚙ Разработчики
 
 [AdepT-Hub](https://adept-hub.ru)
