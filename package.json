@@ -1,7 +1,7 @@
 {
   "name": "vkdice-api",
   "version": "1.0.0",
-  "description": "Модуль для работы с методами VKDice API.",
+  "description": "Модуль для удобного использования VKDice API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,10 @@
     "апи",
     "dice"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defrizletov/vkdice-api.git"
+  },
   "author": "AdepT-Hub <adept-hub.ru>",
   "license": "ISC",
   "dependencies": {
