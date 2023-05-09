@@ -1,0 +1,27 @@
+{
+  "name": "vkdice-api",
+  "version": "1.0.0",
+  "description": "Модуль для работы с методами VKDice API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vk",
+    "vkdice",
+    "vkdice-api",
+    "api",
+    "vkontakte",
+    "вк",
+    "вконтакте",
+    "апи",
+    "dice"
+  ],
+  "author": "AdepT-Hub <adept-hub.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "fastify": "^4.17.0",
+    "js-md5": "^0.7.3"
+  }
+}
