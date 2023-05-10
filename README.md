@@ -29,7 +29,7 @@ const vkDice = new VKDice({ key: '', merchant: 0 });
 // Потом вывод ответа или ошибки в консоль.
 vkDice.api.coins.balance({ user: 1 }).then(console.log).catch(console.error);
 
-// Callback
+// Подключение callback.
 
 // Создаем сервер с помощью переменной vkDice.
 const vkDiceCallback = new VKDiceCallback(vkDice);
