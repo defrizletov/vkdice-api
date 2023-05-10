@@ -2,7 +2,9 @@
 
 <div align="center">
 
-Модуль для удобного использования [VKDice API](https://vk.com/@vkdice-api-v2).
+**Модуль** для удобного использования **[VKDice API](https://vk.com/@vkdice-api-v2)**.
+  
+От **[AdepT-Hub](https://adept-hub.ru)** с  ❤.
 
 </div>
 
@@ -40,7 +42,3 @@ vkDiceCallback.on(event => console.log(event));
 // Потом, если все успешно, пишем в консоль, что сервер запустился, в противном случае выводим ошибку в консоль.
 vkDiceCallback.start(3000, 'localhost').then(console.log('VKDice Callback has been started.')).catch(console.error);
 ```
-
-## ⚙ Разработчики
-
-**[AdepT-Hub](https://adept-hub.ru)**
