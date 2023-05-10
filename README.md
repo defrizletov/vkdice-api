@@ -1,34 +1,3 @@
-<style>
-a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
-}
-
-a:link {
-  color: #265301;
-}
-
-a:visited {
-  color: #437A16;
-}
-
-a:focus {
-  border-bottom: 1px solid;
-  background: #BAE498;
-}
-
-a:hover {
-  border-bottom: 1px solid;
-  background: #CDFEAA;
-}
-
-a:active {
-  background: #265301;
-  color: #CDFEAA;
-}
-</style>
-
 <h1 align="center">VKDice-API</h1>
 
 <div align="center">
@@ -74,4 +43,4 @@ vkDiceCallback.start(3000, 'localhost').then(console.log('VKDice Callback has be
 
 ## ⚙ Разработчики
 
-[AdepT-Hub](https://adept-hub.ru)
+**[AdepT-Hub](https://adept-hub.ru)**
