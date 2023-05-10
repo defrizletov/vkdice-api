@@ -1,3 +1,34 @@
+<style>
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+</style>
+
 <h1 align="center">VKDice-API</h1>
 
 <div align="center">
@@ -32,8 +63,8 @@ vkDice.api.coins.balance({ user: 1 }).then(console.log).catch(console.error);
 // Создаем сервер с помощью переменной vkDice.
 const vkDiceCallback = new VKDiceCallback(vkDice);
 
-// Устанавливаем обработчик на событие пополнения.
-// В этом случае просто вывод события в консоль.
+// Устанавливаем обработчик, который выполнится, когда придёт пополнение.
+// Эта функция выведет объект события в консоль.
 vkDiceCallback.on(event => console.log(event));
 
 // Запуск сервера на порт 3000 и хост localhost (эти аргументы стоят по умолчанию).
