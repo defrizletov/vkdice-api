@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/defrizletov/vkdice-api/main/docs/vkdice.svg?sanitize=true"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/defrizletov/vkdice-api/main/docs/logo.svg?sanitize=true"></p>
 <p align="center">
 <a href="https://www.npmjs.com/package/vkdice-api"><img src="https://img.shields.io/npm/v/vkdice-api.svg?style=flat-square" alt="NPM version"></a>
 <a href="https://www.npmjs.com/package/vkdice-api"><img src="https://img.shields.io/npm/dt/vkdice-api.svg?style=flat-square" alt="NPM downloads"></a>
