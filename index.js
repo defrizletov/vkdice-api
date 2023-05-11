@@ -8,7 +8,7 @@ exports.VKDiceCallback = class {
 
         this.fastify = new require('fastify')();
 
-        this.fastify.post('/', async (request, reply) => {
+        this.fastify.post('/', request => {
             const { body } = request;
 
             if(!this.#check(body)) return { ok: false };
