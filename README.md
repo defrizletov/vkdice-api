@@ -1,4 +1,8 @@
-<h1 align="center">VKDice-API</h1>
+<p align="center"><img src="https://raw.githubusercontent.com/defrizletov/vkdice-api/main/docs/vkdice.svg?sanitize=true"></p>
+<p align="center">
+<a href="https://www.npmjs.com/package/vkdice-api"><img src="https://img.shields.io/npm/v/vkdice-api.svg?style=flat-square" alt="NPM version"></a>
+<a href="https://www.npmjs.com/package/vkdice-api"><img src="https://img.shields.io/npm/dt/vkdice-api.svg?style=flat-square" alt="NPM downloads"></a>
+</p>
 
 <div align="center">
 
@@ -23,7 +27,7 @@ const { VKDice, VKDiceCallback } = require('vkdice-api');
 
 // key - ваш ключ авторизации, полученный в приложении.
 // merchant - ID создателя ключа авторизации.
-const vkDice = new VKDice({ key: '', merchant: 0 });
+const vkDice = new VKDice({ key: process.env.KEY, merchant: process.env.MERCHANT });
 
 // Запрос для примера, получение баланса пользователя с ID 1.
 // Потом вывод ответа или ошибки в консоль.
